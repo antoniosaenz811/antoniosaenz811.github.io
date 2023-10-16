@@ -1,0 +1,162 @@
+/* Header */
+header {
+    background-image: url('flag.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 25px; /* Adjust this value to move the h1 element vertically */
+    margin-top: 0px; /* Offset the header's position */
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #0c233f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Increase padding for better spacing */
+}
+
+/* Adjust font styles and sizes as needed */
+footer p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+/* Increase line spacing for paragraph text */
+.content p {
+    line-height: 1.75;
+    color: black;
+}
+
+ol {
+    line-height: 1.75;
+}
+
+#first {
+    line-height: 1.75;
+}
+
+/* Apply a font and set text color */
+body {
+    font-family: Georgia, sans-serif;
+    color: black;
+}
+
+/* Style section headings */
+.content h2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Set line spacing for paragraphs */
+
+.content p {
+    line-height: 1.75;
+    color: black;
+}
+
+ol {
+    line-height: 1.75;
+}
+#first {
+    line-height: 1.75;
+}
+
+.left-column {
+    width: 70%; /* Adjust the width as needed */
+    float: left;
+}
+
+
+.product h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line-height to vertically center the text */
+    margin-bottom: 10px; /* Adjust the margin if needed */
+}
+
+
+.right-column {
+    width: 30%; /* Adjust the width as needed */
+    float: right;
+}
+
+.products-container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+.product {
+    width: 50%; /* Each product takes 50% of the container's width */
+    padding: 10px; /* Add some spacing around each product */
+}
+
+section {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin: 10px 0;
+    line-height: 1.75;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-column {
+    flex: 1;
+}
+
+.image-column {
+    flex: 1;
+    text-align: right;
+}
+
+#contact {
+    background-color: #dcdcdc;
+}
+#main-content {
+    background-color: #dcdcdc;
+}
+#events {
+    background-color: #dcdcdc;
+}
+#content {
+    background-color: #dcdcdc;
+}
+#section {
+    background-color: #dcdcdc;
+}
+
+
