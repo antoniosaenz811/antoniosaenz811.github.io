@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Brochure</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .products-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product {
+            flex-basis: 100%;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .product h2 {
+            text-align: center; /* Center the product title horizontally */
+        }
+
+        .product p {
+            text-align: center; /* Center the product description horizontally */
+        }
+
+        .product img {
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+            max-width: 550px; /* Increase the max-width for larger images */
+        }
+
+        .product button {
+            display: block;
+            margin: 0 auto; /* Center the button horizontally */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brochure</h1>
+        <nav>
+            <ul>
+                <li><a href="vivek.html">Home</a></li>
+                <li><a href="background.html">Vivek's Background</a></li>
+                <li><a href="interests.html">Interest Groups</a></li>
+                <li><a href="merchandise.html">Campaign Merchandise</a></li>
+                <li><a href="speech.html">Vivek's Speech</a></li>
+                <li><a href="ads.html">Campaign Ads</a></li>
+                <li><a href="brochure.html">Brochure</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="merchandise">
+        <div class="products-container">
+            <div class="product product1">
+                <h2>Brochure (front)</h2>
+                <img src="BROCHURE FRONT.png" alt="Brochure (front)">
+            </div>
+
+            <div class="product product2">
+                <h2>Brochure (back)</h2>
+                <img src="BROCHURE BACK.png" alt="Brochure (back)">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vivek Ramaswamy</p>
+    </footer>
+</body>
+</html>
